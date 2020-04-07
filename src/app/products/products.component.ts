@@ -8,19 +8,11 @@ import { Component, OnInit } from "@angular/core";
   styleUrls: ["./products.component.scss"]
 })
 export class ProductsComponent implements OnInit {
-  veganChoclate: any;
-  productForm: any;
+  
 
-  constructor(private ps: ProductsService, private fb: FormBuilder) {}
+  constructor( private fb: FormBuilder) {}
 
   ngOnInit() {
-    this.veganChoclate = this.ps.getData();
-    
-    this.productForm = this.fb.group({
-      productName: "",
-      id: "",
-      phoneNumber: "",
-      email: ""
-    });
+  
   }
 }

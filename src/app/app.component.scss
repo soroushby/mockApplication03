@@ -1,0 +1,80 @@
+
+a {
+    text-decoration: none;
+    color:whitesmoke;
+  }
+  
+a:hover{
+    color: gray;
+}
+
+ul,li{
+    display: inline;
+    text-decoration: none;
+  }
+  
+
+mat-toolbar{
+    // background-color: rgb(126, 109, 97)
+    background-image: linear-gradient(to bottom right,  rgb(7, 7, 7),rgb(206, 209, 221));
+//  background-image:linear-gradient(to bottom right,  rgb(121, 121, 201),rgb(206, 209, 221));
+
+ box-shadow: 10px 10px 8px #bacfe49c;
+}
+
+
+
+mat-icon{
+    font-size: 3rem;
+    color:white;
+}
+
+mat-sidenav{
+    // background-color: rgb(126, 109, 97);
+    background-image: linear-gradient(to bottom right,  rgb(7, 7, 7),rgb(206, 209, 221));
+    width:25rem;
+    font-size: 3rem;
+    
+}
+
+
+mat-sidenav-container,mat-sidenav,mat-sidenav-content{
+    height:100%;
+}
+
+mat-sidenav-container{
+    background-image: url( C:\Users\User\Desktop\mockApplications\03\mockApplication03\backgorund.jpg);
+    // background-image: linear-gradient(to bottom right, white , rgb(121, 121, 201));
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+// mat-sidenav-container,mat-sidenav,mat-sidenav-content{
+//     height: 100%;
+//   }
+  
+//   a {
+//     text-decoration: none;
+//     color:whitesmoke;
+//   }
+  
+//   a:hover
+//   a:active{
+//     color: rgb(168, 179, 202);
+//   }
+  
+//   .toolbar{
+//     flex-direction: row;
+//   }
+  
+//   ul,li{
+//     display: inline;
+//     text-decoration: none;
+//   }
+  
+//   .example-container{
+//     background-color:rgb(166, 189, 219);
+//   }
+  
+  

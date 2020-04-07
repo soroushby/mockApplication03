@@ -1,7 +1,50 @@
 
-<a [routerLink]="[ '/welcome' ]"> home</a>
-<a [routerLink]="[ '/products' ]"> products </a>
+<mat-sidenav-container class="navigation">
+  <mat-sidenav #sidenav>
+    <ul  fxLayout="column" fxLayoutGap="3rem">
+      <div  fxFlex  fxLayoutAlign="start">
+        <ul   fxLayout="column" fxLayoutGap="30px">
+          <li>
+            <a routerLink="welcome" (click)="sidenav.close()">Home</a>
+          </li>
+          <li>
+            <a routerLink="products" (click)="sidenav.close()">Products</a>
+          </li>
+        </ul>
+      </div>
+
+    </ul>
+  </mat-sidenav>
+
+  <mat-sidenav-content>
+    <mat-toolbar class="navigation-toolbar" fxLayout="row"  >
+
+      <button mat-icon-button class="navigation-toolbar-icon" (click)="sidenav.toggle()">
+       
+        <mat-icon>menu</mat-icon>
+     
+      </button>
+
+      <button mat-icon-button class="navigation-toolbar-icon" >
+        <a routerLink="welcome" fxLayoutAlign="center center">
+          <mat-icon>home</mat-icon>
+        </a>
+      </button>
+
+      <div  fxFlex fxLayout fxLayoutAlign="end">
+        <ul  fxLayoutGap="30px">
+          <li>
+            <a routerLink="welcome">Home</a>
+          </li>
+          <li>
+            <a routerLink="products">Products</a>
+          </li>
+        </ul>
+      </div>
+      
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
 
 
-
-<router-outlet></router-outlet>
