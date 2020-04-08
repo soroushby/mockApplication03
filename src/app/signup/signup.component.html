@@ -1,30 +1,35 @@
 <section class="signup" fxLayoutAlign="center start">
-      <mat-card>
-         <mat-card-title fxLayoutAlign="center start">Sign up</mat-card-title>
-         <form [formGroup]="signUpForm" fxLayout="column" fxLayoutAlign="center center" >
+  <mat-card>
+    <mat-card-title fxLayoutAlign="center start"><b>Sign up</b></mat-card-title>
+    <form
+      [formGroup]="signUpForm"
+      fxLayout="column"
+      fxLayoutAlign="center center"
+    >
+      <mat-form-field appearance="fill">
+        <mat-label>First name</mat-label>
+        <input matInput formControlName="firstName" />
+      </mat-form-field>
 
-            <mat-form-field appearance="fill">
-                <mat-label>First name</mat-label>
-                <input matInput formContorName="firstName">
-              </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Last name</mat-label>
+        <input matInput formControlName="lastName" />
+      </mat-form-field>
 
-              <mat-form-field appearance="fill">
-                <mat-label>Last name</mat-label>
-                <input matInput formContorName="lastName">
-              </mat-form-field>
+      <mat-form-field appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email" type="email" />
+      </mat-form-field>
 
-              <mat-form-field appearance="fill">
-                <mat-label>Email</mat-label>
-                <input matInput formContorName="email">
-              </mat-form-field>
+      <mat-form-field>
+        <mat-label>Your birth date</mat-label>
+        <input matInput [matDatepicker]="picker" formControlName="birthDate" />
+        <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+        <mat-datepicker #picker></mat-datepicker>
+      </mat-form-field>
 
-              <mat-form-field appearance="fill">
-                <mat-label>Input</mat-label>
-                <input matInput>
-              </mat-form-field>
-
-         </form>
-     </mat-card>
+      <mat-checkbox formControlName="checkbox" color="primary"><b>Agree terms and conditions.</b></mat-checkbox>
+      {{ signUpForm.value | json }}
+    </form>
+  </mat-card>
 </section>
-
-{{ signUpForm.value | json }}

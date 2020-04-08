@@ -4,11 +4,12 @@
 
 mat-card-title{
     color: rgb(26, 25, 27);
-    
+    margin-bottom: 2rem;;
 }
 mat-card{
-    margin-top: 3rem;
+    margin-top: 6rem;
     width:50rem;
+    background-image: linear-gradient(to bottom , white,rgb(187, 187, 248));
 }
 
 mat-form-field{
