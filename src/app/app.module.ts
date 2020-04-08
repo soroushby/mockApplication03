@@ -9,13 +9,15 @@ import { ProductsComponent } from './products/products.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { SignupComponent } from './signup/signup.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
@@ -24,6 +26,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     BrowserAnimationsModule,
     MaterialModule,
     FlexLayoutModule,
+    ReactiveFormsModule
     
   ],
   providers: [],
