@@ -1,7 +1,7 @@
 <section class="signup" fxLayoutAlign="center start">
       <mat-card>
-         <mat-card-title>Sign up</mat-card-title>
-         <form formGroup="signUpForm">
+         <mat-card-title fxLayoutAlign="center start">Sign up</mat-card-title>
+         <form [formGroup]="signUpForm" fxLayout="column" fxLayoutAlign="center center" >
 
             <mat-form-field appearance="fill">
                 <mat-label>First name</mat-label>
@@ -26,3 +26,5 @@
          </form>
      </mat-card>
 </section>
+
+{{ signUpForm.value | json }}
