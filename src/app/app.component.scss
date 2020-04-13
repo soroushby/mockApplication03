@@ -17,7 +17,9 @@ mat-toolbar {
     // background-color: rgb(126, 109, 97)
     // background-image: linear-gradient(to bottom right,  rgb(245, 118, 33),white);
     //  background-image:linear-gradient(to bottom right,  rgb(121, 121, 201),rgb(206, 209, 221));
-    background-color: coral;
+    background-color: black;
+
+    // background-image: linear-gradient(to bottom right, rgba(7, 7, 7, 0.473),rgb(7, 7, 7,0.8));
 
     //  box-shadow: 10px 10px 8px #bacfe49c;
 }
@@ -29,8 +31,9 @@ mat-icon {
 
 mat-sidenav {
     // background-color: rgb(126, 109, 97);
-    // background-image: linear-gradient(to bottom right, rgb(250, 127, 223),rgb(255, 255, 255));
-    background-color: coral;
+    // background-image: linear-gradient(to bottom right, rgba(7, 7, 7, 0.473),rgb(7, 7, 7,0.8));
+    // background-color: coral;
+    background-color: black;
     width: 25rem;
     font-size: 3rem;
 }
