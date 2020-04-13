@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "format": "prettier --config prettier.config.js --ignore-path .prettierignore --check **/*.*",
+    "format-check": "prettier --config ./prettier.config.js --ignore-path ./.prettierignore --check **/*.*",
+    "format": "prettier --config ./prettier.config.js --ignore-path ./.prettierignore --write **/*.*",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
