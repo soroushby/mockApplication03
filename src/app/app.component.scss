@@ -1,66 +1,54 @@
-
 a {
     text-decoration: none;
-    color:whitesmoke;
-  }
+    color: whitesmoke;
+}
 
-a:hover{
+a:hover {
     color: gray;
 }
 
-ul,li{
+ul,
+li {
     display: inline;
     text-decoration: none;
-  }
+}
 
-
-mat-toolbar{
+mat-toolbar {
     // background-color: rgb(126, 109, 97)
     // background-image: linear-gradient(to bottom right,  rgb(245, 118, 33),white);
-//  background-image:linear-gradient(to bottom right,  rgb(121, 121, 201),rgb(206, 209, 221));
-background-color: coral;
+    //  background-image:linear-gradient(to bottom right,  rgb(121, 121, 201),rgb(206, 209, 221));
+    background-color: coral;
 
-//  box-shadow: 10px 10px 8px #bacfe49c;
+    //  box-shadow: 10px 10px 8px #bacfe49c;
 }
 
-
-
-mat-icon{
+mat-icon {
     font-size: 3rem;
-    color:white;
+    color: white;
 }
 
-mat-sidenav{
+mat-sidenav {
     // background-color: rgb(126, 109, 97);
     // background-image: linear-gradient(to bottom right, rgb(250, 127, 223),rgb(255, 255, 255));
     background-color: coral;
-    width:25rem;
+    width: 25rem;
     font-size: 3rem;
-
-
-
-
-
-
-
-
 }
 
-
-mat-sidenav-container,mat-sidenav,mat-sidenav-content{
-    height:100%;
+mat-sidenav-container,
+mat-sidenav,
+mat-sidenav-content {
+    height: 100%;
 }
 
-mat-sidenav-container{
+mat-sidenav-container {
     background-image: url("../assets/backgorund-1.jpg");
     // background-image: linear-gradient(to bottom right, white , rgb(121, 121, 201));
     background-size: cover;
     background-repeat: no-repeat;
-
 }
 
-.sidenav{
+.sidenav {
     margin-left: 2rem;
     margin-top: 2rem;
 }
-

@@ -1,4 +1,9 @@
 package.json
+package-lock.json
+.editorconfig
+.gitignore
+.prettierignore
+.gitkeep
 *.ico
 *.png
 *.jpeg
