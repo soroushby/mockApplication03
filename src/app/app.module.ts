@@ -10,9 +10,10 @@ import { WelcomeComponent } from "./welcome/welcome.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { SignupComponent } from "./signup/signup.component";
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
-    declarations: [AppComponent, ProductsComponent, WelcomeComponent, SignupComponent],
+    declarations: [AppComponent, ProductsComponent, WelcomeComponent, SignupComponent, LoginComponent],
     imports: [
         BrowserModule,
         AppRoutingModule,

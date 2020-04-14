@@ -19,17 +19,19 @@
 
     <mat-sidenav-content>
         <mat-toolbar class="navigation-toolbar" fxLayout="row">
-            <button mat-icon-button class="navigation-toolbar-icon" (click)="sidenav.toggle()">
-                <mat-icon>menu</mat-icon>
-            </button>
+            <div fxFlex="33%">
+                <button mat-icon-button class="navigation-toolbar-icon" (click)="sidenav.toggle()">
+                    <mat-icon>menu</mat-icon>
+                </button>
 
-            <button mat-icon-button class="navigation-toolbar-icon">
-                <a routerLink="welcome" fxLayoutAlign="center center">
-                    <mat-icon>home</mat-icon>
-                </a>
-            </button>
-
-            <div fxFlex fxLayout fxLayoutAlign="end">
+                <button mat-icon-button class="navigation-toolbar-icon">
+                    <a routerLink="welcome" fxLayoutAlign="center center">
+                        <mat-icon>home</mat-icon>
+                    </a>
+                </button>
+            </div>
+            <div fxFlex="33%"></div>
+            <div fxFlex="33%" fxLayout fxLayoutAlign="end">
                 <ul fxLayoutGap="30px">
                     <li>
                         <a routerLink="welcome">Home</a>
