@@ -27,7 +27,11 @@
             </mat-form-field>
 
             <mat-checkbox formControlName="checkbox" color="primary"><b>Agree terms and conditions.</b></mat-checkbox>
-            {{ signUpForm.value | json }}
+
+            <button mat-raised-button class="submit-button">
+                submit
+            </button>
+            <!-- {{ signUpForm.value | json }} -->
         </form>
     </mat-card>
 </section>

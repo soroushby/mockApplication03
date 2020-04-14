@@ -55,3 +55,17 @@ mat-sidenav-container {
     margin-left: 2rem;
     margin-top: 2rem;
 }
+
+.logo-container {
+    height: 4rem;
+}
+
+.logo {
+    height: 6rem;
+    width: 6rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(logo.jpg);
+    border-radius: 300px;
+    margin-left: 2rem;
+}

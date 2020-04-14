@@ -19,7 +19,7 @@
 
     <mat-sidenav-content>
         <mat-toolbar class="navigation-toolbar" fxLayout="row">
-            <div fxFlex="33%">
+            <div fxFlex="50%" fxLayoutAlign="start center" fxLayoutGap="2rem">
                 <button mat-icon-button class="navigation-toolbar-icon" (click)="sidenav.toggle()">
                     <mat-icon>menu</mat-icon>
                 </button>
@@ -30,8 +30,8 @@
                     </a>
                 </button>
             </div>
-            <div fxFlex="33%"></div>
-            <div fxFlex="33%" fxLayout fxLayoutAlign="end">
+
+            <div fxFlex="50%" fxLayout fxLayoutAlign="end center">
                 <ul fxLayoutGap="30px">
                     <li>
                         <a routerLink="welcome">Home</a>
@@ -44,8 +44,11 @@
                         <a routerLink="signup">Signup</a>
                     </li>
                 </ul>
+                <div class="logo"></div>
             </div>
         </mat-toolbar>
-        <router-outlet></router-outlet>
+        <main>
+            <router-outlet></router-outlet>
+        </main>
     </mat-sidenav-content>
 </mat-sidenav-container>
