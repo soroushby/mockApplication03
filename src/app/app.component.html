@@ -4,17 +4,17 @@
             <div fxFlex fxLayoutAlign="start" class="sidenav">
                 <ul fxLayout="column" fxLayoutGap="30px">
                     <li>
-                        <a routerLink="welcome" (click)="sidenav.close()">Home</a>
+                        <a routerLink="welcome" (click)="sidenav.close()" class="sidenav-elements"> Home</a>
                     </li>
                     <li>
-                        <a routerLink="products" (click)="sidenav.close()">Products</a>
+                        <a routerLink="products" (click)="sidenav.close()" class="sidenav-elements"> Products</a>
                     </li>
                     <li>
-                        <a routerLink="signup" (click)="sidenav.close()">Signup</a>
+                        <a routerLink="signup" (click)="sidenav.close()" class="sidenav-elements"> Signup</a>
                     </li>
 
                     <li>
-                        <a routerLink="contactus" (click)="sidenav.close()">contactus</a>
+                        <a routerLink="contactus" (click)="sidenav.close()" class="sidenav-elements"> contactus</a>
                     </li>
                 </ul>
             </div>
@@ -28,11 +28,11 @@
                     <mat-icon>menu</mat-icon>
                 </button>
 
-                <button mat-icon-button class="navigation-toolbar-icon">
+                <!-- <button mat-icon-button class="navigation-toolbar-icon">
                     <a routerLink="welcome" fxLayoutAlign="center center">
                         <mat-icon>home</mat-icon>
                     </a>
-                </button>
+                </button> -->
                 <ul fxLayoutGap="30px">
                     <li>
                         <a routerLink="welcome">Home</a>
@@ -53,7 +53,7 @@
                         <a routerLink="contactus">Contact us</a>
                     </li>
                 </ul>
-                <div class="logo"><div class="logo-pic"></div></div>
+                <div class="logo" fxLayoutAlign="center center"><div class="logo-pic"></div></div>
             </div>
         </mat-toolbar>
 

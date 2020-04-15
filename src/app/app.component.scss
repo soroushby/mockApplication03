@@ -1,6 +1,7 @@
 a {
     text-decoration: none;
-    color: whitesmoke;
+    color: black;
+    
 }
 
 a:hover {
@@ -17,7 +18,9 @@ mat-toolbar {
     // background-color: rgb(126, 109, 97)
     // background-image: linear-gradient(to bottom right,  rgb(245, 118, 33),white);
     //  background-image:linear-gradient(to bottom right,  rgb(121, 121, 201),rgb(206, 209, 221));
-    background-color: black;
+    background-color: white;
+   
+    
 
     // background-image: linear-gradient(to bottom right, rgba(7, 7, 7, 0.473),rgb(7, 7, 7,0.8));
 
@@ -26,14 +29,14 @@ mat-toolbar {
 
 mat-icon {
     font-size: 3rem;
-    color: white;
+    color: black;
 }
 
 mat-sidenav {
     // background-color: rgb(126, 109, 97);
     // background-image: linear-gradient(to bottom right, rgba(7, 7, 7, 0.473),rgb(7, 7, 7,0.8));
     // background-color: coral;
-    background-color: black;
+    background-color: white;
     width: 25rem;
     font-size: 3rem;
 }
@@ -45,9 +48,10 @@ mat-sidenav-content {
 }
 
 mat-sidenav-container {
-    background-image: url("background-3.jpg");
+    background-image: url(src\assets\steven-su-AxhfHp6fJ2M-unsplash.jpg);
     // background-image: linear-gradient(to bottom right, white , rgb(121, 121, 201));
-    background-size: cover;
+   background-size: cover;
+    display: block;
     background-repeat: no-repeat;
 }
 
@@ -61,15 +65,17 @@ mat-sidenav-container {
 }
 
 .logo {
-    height: 6rem;
-    width: 6rem;
+    
+    height: 5rem;
+    width:10rem;
+    
 
     font-weight: 900;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 300px;
     margin-left: 2rem;
-    background-image: url(src\assets\LOGO-bw.png);
+    background-image: url(src\assets\Logo-Transparent.png);
     border-image-width: 50px;
     //dd
 }
@@ -77,4 +83,8 @@ mat-sidenav-container {
 logo-pic {
     height: 5rem;
     width: 5rem;
+}
+
+mat-sidenave a {
+    color: white ;
 }

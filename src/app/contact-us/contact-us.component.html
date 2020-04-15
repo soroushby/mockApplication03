@@ -1,1 +1,28 @@
-<p>contact-us works!</p>
+<section class="contact" fxLayoutAlign="center start">
+    <mat-card>
+        <mat-card-title fxLayoutAlign="center start">
+            <b><i>Contact us</i></b>
+        </mat-card-title>
+        <form [formGroup]="contactForm" fxLayout="column" fxLayoutAlign="center center">
+            <mat-form-field appearance="fill">
+                <mat-label>Your name</mat-label>
+                <input matInput formControlName="name" />
+            </mat-form-field>
+
+            <mat-form-field appearance="fill">
+                <mat-label> Your email</mat-label>
+                <input matInput formControlName="email" type="email" />
+            </mat-form-field>
+
+            <mat-form-field appearance="fill" >
+                <mat-label> Message to us</mat-label>
+                <textarea matInput formControlName="message"  class="message" type="text" ></textarea>
+            </mat-form-field>
+
+            <button mat-raised-button class="submit-button">
+                submit
+            </button>
+            <!-- {{ contactForm.value | json }} -->
+        </form>
+    </mat-card>
+</section>

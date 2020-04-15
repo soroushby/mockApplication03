@@ -1,28 +1,43 @@
-.main-container {
+.main-container{
     height: 100vh;
     // background-color: blue;
+    
 }
 
-.logo {
+.logo{
     background-image: url(src\assets\LOGO-bw.png);
-    width: 8rem;
-    height: 8rem;
+    width:8rem;
+    height:8rem;
     background-size: cover;
     margin-bottom: 2rem;
 }
 
-a {
+a{
     text-decoration: none;
-    font-size: 4rem;
-    color: black;
+    font-size:4rem;
+    color: white;
+   font-family: "Courier New", Courier, monospace;
+   background-color: rgba(211, 52, 226, 0.582);
+  
 }
 
-.navigation-container {
+// .navigation-container{
+//     height: 20rem;
+//     width:60rem;
+//     background-color: rgba(44, 30, 241, 0.356);
+//}
+    
+   
+
+.navigation-button{
+    height:15rem;
+    width: 50rem;
+   
+ 
+   background-color: rgba(0, 0, 255, 0.474);
 }
-.navigation-button {
-    background-image: linear-gradient(to right, white, black);
-    height: 6rem;
-}
+
+
 
 // .logo-container{
 //     width:10rem;

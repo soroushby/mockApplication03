@@ -1,0 +1,39 @@
+.contact {
+    font-size: 1.5rem;
+   background-image:url(src\assets\contact1.jpg) ;
+   
+    background-repeat: no-repeat;
+  background-size: cover;
+   min-height:100vh;
+    
+}
+
+mat-card-title {
+    color: rgb(26, 25, 27);
+    margin-bottom: 2rem;
+}
+mat-card {
+    // border-radius: 4rem;
+    margin-top: 10rem;
+    width: 50rem;
+    // background-image: linear-gradient(to bottom ,rgba(225, 200, 231, 0.918),rgba(158, 201, 181, 0.986));
+    background-color: rgba(245, 245, 245, 0.753);
+    border-top: black solid 2rem;
+}
+
+mat-form-field {
+    width: 30rem;
+}
+
+.one {
+    border-radius: 4rem;
+}
+
+.submit-button {
+    width: 14rem;
+    background-color: black;
+    color: white;
+    border-radius: 300px;
+    margin-top: 2rem;
+}
+ 
