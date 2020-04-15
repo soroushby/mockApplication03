@@ -11,10 +11,17 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { SignupComponent } from "./signup/signup.component";
 import { LoginComponent } from "./login/login.component";
-import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ContactUsComponent } from "./contact-us/contact-us.component";
 
 @NgModule({
-    declarations: [AppComponent, ProductsComponent, WelcomeComponent, SignupComponent, LoginComponent, ContactUsComponent],
+    declarations: [
+        AppComponent,
+        ProductsComponent,
+        WelcomeComponent,
+        SignupComponent,
+        LoginComponent,
+        ContactUsComponent
+    ],
     imports: [
         BrowserModule,
         AppRoutingModule,

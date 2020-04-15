@@ -12,6 +12,10 @@
                     <li>
                         <a routerLink="signup" (click)="sidenav.close()">Signup</a>
                     </li>
+
+                    <li>
+                        <a routerLink="contactus" (click)="sidenav.close()">contactus</a>
+                    </li>
                 </ul>
             </div>
         </ul>
@@ -29,9 +33,6 @@
                         <mat-icon>home</mat-icon>
                     </a>
                 </button>
-            </div>
-
-            <div fxFlex="50%" fxLayout fxLayoutAlign="end center">
                 <ul fxLayoutGap="30px">
                     <li>
                         <a routerLink="welcome">Home</a>
@@ -39,16 +40,23 @@
                     <li>
                         <a routerLink="products">Products</a>
                     </li>
+                </ul>
+            </div>
 
+            <div fxFlex="50%" fxLayout fxLayoutAlign="end center">
+                <ul fxLayoutGap="30px">
                     <li>
                         <a routerLink="signup">Signup</a>
+                    </li>
+
+                    <li>
+                        <a routerLink="contactus">Contact us</a>
                     </li>
                 </ul>
                 <div class="logo"><div class="logo-pic"></div></div>
             </div>
         </mat-toolbar>
-        
-            <router-outlet></router-outlet>
-        
+
+        <router-outlet></router-outlet>
     </mat-sidenav-content>
 </mat-sidenav-container>
