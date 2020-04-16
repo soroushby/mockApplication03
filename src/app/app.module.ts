@@ -12,13 +12,13 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 import { SignupComponent } from "./signup/signup.component";
 import { LoginComponent } from "./login/login.component";
 import { ContactUsComponent } from "./contact-us/contact-us.component";
-import { ArchitectureComponent } from './architecture/architecture.component';
-import { DecorationComponent } from './decoration/decoration.component';
-import { IndustrialDesignComponent } from './industrial-design/industrial-design.component';
-import { GraphicComponent } from './graphic/graphic.component';
-import { PhotographyComponent } from './photography/photography.component';
-import { MusicComponent } from './music/music.component';
-import { WebDesignComponent } from './web-design/web-design.component';
+import { ArchitectureComponent } from "./architecture/architecture.component";
+import { DecorationComponent } from "./decoration/decoration.component";
+import { IndustrialDesignComponent } from "./industrial-design/industrial-design.component";
+import { GraphicComponent } from "./graphic/graphic.component";
+import { PhotographyComponent } from "./photography/photography.component";
+import { MusicComponent } from "./music/music.component";
+import { WebDesignComponent } from "./web-design/web-design.component";
 
 @NgModule({
     declarations: [

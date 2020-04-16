@@ -1,15 +1,12 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-  selector: 'app-photography',
-  templateUrl: './photography.component.html',
-  styleUrls: ['./photography.component.scss']
+    selector: "app-photography",
+    templateUrl: "./photography.component.html",
+    styleUrls: ["./photography.component.scss"]
 })
 export class PhotographyComponent implements OnInit {
+    constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+    ngOnInit() {}
 }
