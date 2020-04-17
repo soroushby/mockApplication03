@@ -16,7 +16,7 @@ const routes: Routes = [
     { path: "products", component: ProductsComponent },
     { path: "signup", component: SignupComponent },
     { path: "welcome", component: WelcomeComponent },
-   
+
     { path: "", component: WelcomeComponent }
 ];
 
