@@ -16,14 +16,7 @@ const routes: Routes = [
     { path: "products", component: ProductsComponent },
     { path: "signup", component: SignupComponent },
     { path: "welcome", component: WelcomeComponent },
-    { path: "contactus", component: ContactUsComponent },
-    { path: "architecture", component: ArchitectureComponent },
-    { path: "decoration", component: DecorationComponent },
-    { path: "industrial", component: IndustrialDesignComponent },
-    { path: "graphic", component: GraphicComponent },
-    { path: "photography", component: PhotographyComponent },
-    { path: "music", component: MusicComponent },
-    { path: "webDesign", component: WebDesignComponent },
+   
     { path: "", component: WelcomeComponent }
 ];
 
