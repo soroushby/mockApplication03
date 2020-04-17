@@ -1,3 +1,4 @@
+import { AuthModule } from './featureModules/auth/auth.module';
 import { ProductsModule } from "./featureModules/products/products.module";
 import { MaterialModule } from "./material/material.module";
 import { ReactiveFormsModule } from "@angular/forms";
@@ -10,19 +11,18 @@ import { ProductsComponent } from "./products/products.component";
 import { WelcomeComponent } from "./welcome/welcome.component";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FlexLayoutModule } from "@angular/flex-layout";
-import { SignupComponent } from "./signup/signup.component";
-import { LoginComponent } from "./login/login.component";
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
-    declarations: [AppComponent, ProductsComponent, WelcomeComponent, SignupComponent, LoginComponent],
+    declarations: [AppComponent, ProductsComponent, WelcomeComponent,  PageNotFoundComponent],
     imports: [
         BrowserModule,
-        ReactiveFormsModule,
         BrowserAnimationsModule,
         MaterialModule,
         FlexLayoutModule,
         ReactiveFormsModule,
         ProductsModule,
+        AuthModule,
         AppRoutingModule
     ],
     providers: [],
