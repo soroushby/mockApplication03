@@ -17,7 +17,6 @@ import { LoginComponent } from "./login/login.component";
     declarations: [AppComponent, ProductsComponent, WelcomeComponent, SignupComponent, LoginComponent],
     imports: [
         BrowserModule,
-
         ReactiveFormsModule,
         BrowserAnimationsModule,
         MaterialModule,
