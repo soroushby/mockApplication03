@@ -13,12 +13,12 @@
                 <mat-label>Last name</mat-label>
                 <input matInput formControlName="lastName" />
             </mat-form-field>
- 
+
             <mat-form-field appearance="fill">
                 <mat-label>Gender</mat-label>
                 <mat-select formControlName="gender">
-                  <mat-option value="option">Male</mat-option>
-                  <mat-option value="option">Female</mat-option>
+                    <mat-option value="option">Male</mat-option>
+                    <mat-option value="option">Female</mat-option>
                 </mat-select>
             </mat-form-field>
 
@@ -39,7 +39,7 @@
             <button mat-raised-button class="submit-button">
                 submit
             </button>
-            {{ signUpForm.value | json }}
+            <!-- {{ signUpForm.value | json }} -->
         </form>
     </mat-card>
 </section>
