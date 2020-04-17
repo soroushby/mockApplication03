@@ -7,7 +7,6 @@ import { WelcomeComponent } from "./welcome/welcome.component";
 
 const routes: Routes = [
     { path: "products", component: ProductsComponent },
-    
     { path: "welcome", component: WelcomeComponent },
     { path: "", component: WelcomeComponent },
     {path: "**",component:PageNotFoundComponent},
