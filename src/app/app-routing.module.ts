@@ -1,4 +1,4 @@
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 import { SignupComponent } from "./signup/signup.component";
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
@@ -9,8 +9,7 @@ const routes: Routes = [
     { path: "products", component: ProductsComponent },
     { path: "welcome", component: WelcomeComponent },
     { path: "", component: WelcomeComponent },
-    {path: "**",component:PageNotFoundComponent},
-
+    { path: "**", component: PageNotFoundComponent }
 ];
 
 @NgModule({
