@@ -8,8 +8,8 @@ import { WelcomeComponent } from "./welcome/welcome.component";
 const routes: Routes = [
     {
         path: "products",
-        component: ProductsComponent ,
-        // loadChildren: 
+        component: ProductsComponent
+        // loadChildren:
     },
     { path: "welcome", component: WelcomeComponent },
     { path: "", component: WelcomeComponent },
