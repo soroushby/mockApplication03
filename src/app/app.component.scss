@@ -45,11 +45,11 @@ mat-sidenav-content {
 }
 
 mat-sidenav-container {
-    background-image: url(src\assets\steven-su-AxhfHp6fJ2M-unsplash.jpg);
-    // background-image: linear-gradient(to bottom right, white , rgb(121, 121, 201));
-    background-size: cover;
-    display: block;
-    background-repeat: no-repeat;
+    // background-image: url(src\assets\steven-su-AxhfHp6fJ2M-unsplash.jpg);
+    // // background-image: linear-gradient(to bottom right, white , rgb(121, 121, 201));
+    // background-size: cover;
+    // display: block;
+    // background-repeat: no-repeat;
 }
 
 .sidenav {
@@ -62,15 +62,15 @@ mat-sidenav-container {
 }
 
 .logo {
-    height: 5rem;
-    width: 10rem;
+    height: 3rem;
+    width: 7rem;
 
     font-weight: 900;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 300px;
     margin-left: 2rem;
-    background-image: url(src\assets\Logo-Transparent.png);
+    background-image: url(src\assets\SOROSH-LOGO.svg);
     border-image-width: 50px;
     //dd
 }
