@@ -14,7 +14,7 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 
 @NgModule({
-    declarations: [AppComponent, ProductsComponent, WelcomeComponent, PageNotFoundComponent],
+    declarations: [AppComponent, WelcomeComponent, PageNotFoundComponent],
     imports: [
         BrowserModule,
         BrowserAnimationsModule,

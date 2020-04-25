@@ -13,6 +13,7 @@ import { WebDesignComponent } from "src/app/web-design/web-design.component";
 import { ReactiveFormsModule } from "@angular/forms";
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { ProductsComponent } from 'src/app/products/products.component';
 
 @NgModule({
     declarations: [
@@ -23,11 +24,13 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
         GraphicComponent,
         PhotographyComponent,
         MusicComponent,
-        WebDesignComponent
+        WebDesignComponent,
+        ProductsComponent
     ],
     imports: [
         CommonModule,
         RouterModule.forChild([
+            {path: "products", component: ProductsComponent},
             { path: "contactus", component: ContactUsComponent },
             { path: "architecture", component: ArchitectureComponent },
             { path: "decoration", component: DecorationComponent },
