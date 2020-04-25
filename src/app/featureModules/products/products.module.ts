@@ -4,7 +4,7 @@ import { RouterModule } from "@angular/router";
 import { NgModule } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { ArchitectureComponent } from "src/app/feature/architecture/architecture.component";
-import { DecorationComponent } from "src/app/feature/decoration/decoration.component";
+
 import { IndustrialDesignComponent } from "src/app/feature/industrial-design/industrial-design.component";
 import { GraphicComponent } from "src/app/feature/graphic/graphic.component";
 import { PhotographyComponent } from "src/app/feature/photography/photography.component";
@@ -19,7 +19,6 @@ import { ProductsComponent } from "src/app/feature/products/products.component";
     declarations: [
         ContactUsComponent,
         ArchitectureComponent,
-        DecorationComponent,
         IndustrialDesignComponent,
         GraphicComponent,
         PhotographyComponent,
@@ -33,7 +32,7 @@ import { ProductsComponent } from "src/app/feature/products/products.component";
             { path: "products", component: ProductsComponent },
             { path: "contactus", component: ContactUsComponent },
             { path: "architecture", component: ArchitectureComponent },
-            { path: "decoration", component: DecorationComponent },
+       
             { path: "industrial", component: IndustrialDesignComponent },
             { path: "graphic", component: GraphicComponent },
             { path: "photography", component: PhotographyComponent },
