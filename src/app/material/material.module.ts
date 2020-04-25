@@ -12,6 +12,9 @@ import { MatDatepickerModule } from "@angular/material/datepicker";
 import { MatNativeDateModule, MatOptionModule } from "@angular/material/core";
 import { MatCheckboxModule } from "@angular/material/checkbox";
 import { MatSelectModule } from "@angular/material/select";
+import {MatTabsModule} from '@angular/material/tabs';
+
+
 
 @NgModule({
     declarations: [],
@@ -29,7 +32,8 @@ import { MatSelectModule } from "@angular/material/select";
         MatNativeDateModule,
         MatCheckboxModule,
         MatOptionModule,
-        MatSelectModule
+        MatSelectModule,
+        MatTabsModule
     ],
     exports: [
         MatSidenavModule,
@@ -44,7 +48,8 @@ import { MatSelectModule } from "@angular/material/select";
         MatNativeDateModule,
         MatCheckboxModule,
         MatOptionModule,
-        MatSelectModule
+        MatSelectModule,
+        MatTabsModule
     ]
 })
 export class MaterialModule {}
