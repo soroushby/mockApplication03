@@ -40,15 +40,15 @@
 
             <div fxFlex="30%" fxLayoutGap="30px" fxLayout="row" fxLayoutAlign="end center">
                 <ul fxLayoutGap="30px">
-                   <li>
+                    <li>
                         <a (click)="auth.login()" *ngIf="!auth.loggedIn">Log In</a>
                         <!-- <button (click)="auth.logout()" *ngIf="auth.loggedIn">Log Out</button> -->
-                    </li> 
+                    </li>
 
                     <li>
                         <!-- <a (click)="auth.login()" *ngIf="!auth.loggedIn">Log In</a> -->
                         <a (click)="auth.logout()" *ngIf="auth.loggedIn">Log Out</a>
-                    </li> 
+                    </li>
                     <!-- <li>
                         <a routerLink="/signup">Signup</a>
                     </li> -->
@@ -59,9 +59,7 @@
                 </ul>
 
                 <div class="logo" fxLayoutAlign="center center">
-                    <div class="logo-pic">
-
-                    </div>
+                    <div class="logo-pic"></div>
                 </div>
             </div>
         </mat-toolbar>
