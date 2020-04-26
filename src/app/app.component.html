@@ -40,9 +40,18 @@
 
             <div fxFlex="30%" fxLayoutGap="30px" fxLayout="row" fxLayoutAlign="end center">
                 <ul fxLayoutGap="30px">
+                   <li>
+                        <a (click)="auth.login()" *ngIf="!auth.loggedIn">Log In</a>
+                        <!-- <button (click)="auth.logout()" *ngIf="auth.loggedIn">Log Out</button> -->
+                    </li> 
+
                     <li>
+                        <!-- <a (click)="auth.login()" *ngIf="!auth.loggedIn">Log In</a> -->
+                        <a (click)="auth.logout()" *ngIf="auth.loggedIn">Log Out</a>
+                    </li> 
+                    <!-- <li>
                         <a routerLink="/signup">Signup</a>
-                    </li>
+                    </li> -->
 
                     <li>
                         <a routerLink="/contactus">Contact us</a>
