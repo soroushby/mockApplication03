@@ -28,11 +28,6 @@
                     <mat-icon>menu</mat-icon>
                 </button>
 
-                <!-- <button mat-icon-button class="navigation-toolbar-icon">
-                    <a routerLink="welcome" fxLayoutAlign="center center">
-                        <mat-icon>home</mat-icon>
-                    </a>
-                </button> -->
                 <ul fxLayoutGap="30px">
                     <li>
                         <a routerLink="/welcome">Home</a>
@@ -40,7 +35,11 @@
                     <li>
                         <a routerLink="/products">Products</a>
                     </li>
+                </ul>
+            </div>
 
+            <div fxFlex="30%" fxLayoutGap="30px" fxLayout="row" fxLayoutAlign="end center">
+                <ul fxLayoutGap="30px">
                     <li>
                         <a routerLink="/signup">Signup</a>
                     </li>
@@ -49,45 +48,13 @@
                         <a routerLink="/contactus">Contact us</a>
                     </li>
                 </ul>
+
+                <div class="logo" fxLayoutAlign="center center">
+                    <div class="logo-pic">
+
+                    </div>
+                </div>
             </div>
-            <div fxFlex="30%"></div>
-
-            <!-- <div fxFlex="70%" fxLayout fxLayoutAlign="end center">
-                <ul fxLayoutGap="30px">
-                    <li>
-                        <a routerLink="/architecture">Architecture</a>
-                    </li>
-
-                    <li>
-                        <a routerLink="/decoration">Decoration</a>
-                    </li>
-
-                    <li>
-                        <a routerLink="/industrial">Industrial design</a>
-                    </li>
-
-                    <li>
-                        <a routerLink="/graphic">Graphic</a>
-                    </li>
-
-                    <li>
-                        <a routerLink="/photography">Photography</a>
-                    </li>
-
-                    <li>
-                        <a routerLink="/music">Music</a>
-                    </li>
-
-                    <li>
-                        <a routerLink="/webDesign">Web design</a>
-                    </li>
-
-                    <li>
-                        <a>Gallery</a>
-                    </li>
-                </ul>
-                <div class="logo" fxLayoutAlign="center center"><div class="logo-pic"></div></div>
-            </div> -->
         </mat-toolbar>
 
         <router-outlet></router-outlet>

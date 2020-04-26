@@ -10,3 +10,9 @@
 .style:hover {
     background-color: gray;
 }
+
+.main-container {
+  min-height: 100vh;
+  background-image: url(src\assets\products.jpg); 
+  background-size: cover;
+}
