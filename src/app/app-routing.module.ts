@@ -1,11 +1,10 @@
-
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
 
 import { WelcomeComponent } from "./welcome/welcome.component";
-import { ProfileComponent } from './profile/profile.component';
+import { ProfileComponent } from "./profile/profile.component";
 
 const routes: Routes = [
     { path: "welcome", component: WelcomeComponent },
@@ -16,9 +15,9 @@ const routes: Routes = [
     },
 
     {
-        path: 'profile',
+        path: "profile",
         component: ProfileComponent
-      },
+    },
 
     { path: "", component: WelcomeComponent },
     { path: "**", component: PageNotFoundComponent }
