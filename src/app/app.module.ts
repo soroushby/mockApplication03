@@ -11,9 +11,10 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { FlexLayoutModule } from "@angular/flex-layout";
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 import { ProfileComponent } from "./profile/profile.component";
+import { ContactUsComponent } from './feature/contact-us/contact-us.component';
 
 @NgModule({
-    declarations: [AppComponent, WelcomeComponent, PageNotFoundComponent, ProfileComponent],
+    declarations: [AppComponent, WelcomeComponent, PageNotFoundComponent, ProfileComponent,ContactUsComponent],
     imports: [
         BrowserModule,
         BrowserAnimationsModule,
