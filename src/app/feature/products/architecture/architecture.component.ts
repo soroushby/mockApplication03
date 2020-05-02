@@ -1,4 +1,5 @@
 import { Component, OnInit } from "@angular/core";
+import { ProductsService } from 'src/app/products.service';
 
 @Component({
     selector: "app-architecture",
@@ -6,7 +7,12 @@ import { Component, OnInit } from "@angular/core";
     styleUrls: ["./architecture.component.scss"]
 })
 export class ArchitectureComponent implements OnInit {
-    constructor() {}
-
-    ngOnInit() {}
+    products=this.productservice.products$
+    constructor(private productservice:ProductsService) {}
+ 
+    ngOnInit() {
+      
+        console.log(this.products)
+       
+    }
 }

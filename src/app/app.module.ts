@@ -12,6 +12,8 @@ import { FlexLayoutModule } from "@angular/flex-layout";
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 import { ProfileComponent } from "./profile/profile.component";
 import { ContactUsComponent } from './feature/contact-us/contact-us.component';
+import { HttpClientModule } from '@angular/common/http';
+
 
 @NgModule({
     declarations: [AppComponent, WelcomeComponent, PageNotFoundComponent, ProfileComponent,ContactUsComponent],
@@ -22,7 +24,8 @@ import { ContactUsComponent } from './feature/contact-us/contact-us.component';
         FlexLayoutModule,
         ReactiveFormsModule,
         AuthModule,
-        AppRoutingModule
+        AppRoutingModule,
+        HttpClientModule
     ],
     providers: [],
     bootstrap: [AppComponent]
