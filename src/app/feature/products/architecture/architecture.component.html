@@ -1,10 +1,7 @@
-
-    <div class="main-container">
-        <div *ngIf="products | async as products">
-            <div *ngFor="let product of products">{{product.body}}</div>
-        </div>
-       
-        <!-- {{ products | json }} -->
+<div class="main-container">
+    <div *ngIf="products | async as products">
+        <div *ngFor="let product of products">{{ product.body }}</div>
     </div>
 
-
+    <!-- {{ products | json }} -->
+</div>
