@@ -10,7 +10,5 @@ export class ArchitectureComponent implements OnInit {
     products$ = this.productservice.products$;
     constructor(private productservice: ProductsService) {}
 
-    ngOnInit() {
-        
-    }
+    ngOnInit() {}
 }
