@@ -26,7 +26,8 @@ const routes: Routes = [
     },
 
     { path: "", component: WelcomeComponent },
-    { path: "**", component: PageNotFoundComponent }
+    { path: "**", component: PageNotFoundComponent },
+    
 ];
 
 @NgModule({
